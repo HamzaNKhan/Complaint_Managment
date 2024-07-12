@@ -47,7 +47,7 @@ export default async function handler(req, res) {
     try {
       await transporter.sendMail({
         from: 'complaints@capregsoft.com',
-        to: 'hamzanadeem170398@gmail.com',
+        to: 'info@capregsoft.com',
         subject: subject,
         // text: anonymous
         //   ? `Anonymous complaint:\n\n${complaint}`
