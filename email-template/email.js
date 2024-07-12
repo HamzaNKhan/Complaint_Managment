@@ -50,7 +50,7 @@ export const generateMjmlTemplate = (username, complaint, anonymous) =>
         <mj-body background-color="#fafafa">
           <mj-section background-color="#ffffff" padding="20px">
             <mj-column>
-              <mj-image src="https://www.capregsoft.com/_next/static/media/logo.94a39af7.svg" width="100px" border-radius="100px" alt="Logo"/>
+              <mj-image src="https://i.imgur.com/adqkBeM.png" width="100px" border-radius="100px" height="100px" alt="Logo" title="Logo" style="display:block"/>
             </mj-column>
           </mj-section>
           <mj-section background-color="#f2f2f2">
@@ -77,10 +77,10 @@ export const generateMjmlTemplate = (username, complaint, anonymous) =>
               </mj-text>
               ${
                 anonymous
-                  ? `<mj-text font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif" color="#333">
+                  ? `<mj-text font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif" color="darkgrey">
                   Best wishes
                 </mj-text>`
-                  : `<mj-text font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif" color="#333">
+                  : `<mj-text font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif" color="darkgrey">
                 Best wishes,<br>${username}
               </mj-text>`
               }

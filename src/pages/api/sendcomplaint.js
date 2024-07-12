@@ -46,7 +46,7 @@ export default async function handler(req, res) {
 
     try {
       await transporter.sendMail({
-        from: process.env.MAIL_USERNAME,
+        from: 'complaints@capregsoft.com',
         to: 'hamzanadeem170398@gmail.com',
         subject: subject,
         // text: anonymous
